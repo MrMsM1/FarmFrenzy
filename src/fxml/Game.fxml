@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="800.0" maxWidth="1100.0" minHeight="800.0" minWidth="1100.0" prefHeight="800.0" prefWidth="1100.0" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AllClasses.Game">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1100.0">
+         <image>
+            <Image url="@../img/back6.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="wellButton" layoutX="636.0" layoutY="161.0" mnemonicParsing="false" onAction="#pushWellButton" text="Fill" />
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="25.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addTurkey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="110.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addOstrich.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="280.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addDog.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="195.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addBuffalo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="365.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addCat.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="addTurkey" blendMode="OVERLAY" layoutX="25.0" layoutY="15.0" mnemonicParsing="false" onAction="#pushAddTurkey" prefHeight="75.0" prefWidth="75.0" styleClass="level1-button" text="Button" textFill="#ffffff00" />
+      <Button fx:id="addOstrich" blendMode="OVERLAY" layoutX="110.0" layoutY="15.0" mnemonicParsing="false" onAction="#pushAddOstrich" prefHeight="75.0" prefWidth="75.0" styleClass="level1-button" text="Button" textFill="#ffffff00" />
+      <Button fx:id="addBuffalo" blendMode="OVERLAY" layoutX="195.0" layoutY="15.0" mnemonicParsing="false" onAction="#pushAddBuffalo" prefHeight="75.0" prefWidth="75.0" styleClass="level1-button" text="Button" textFill="#ffffff00" />
+      <Button fx:id="addDog" blendMode="OVERLAY" layoutX="280.0" layoutY="15.0" mnemonicParsing="false" onAction="#pushAddDog" prefHeight="75.0" prefWidth="75.0" styleClass="level1-button" text="Button" textFill="#ffffff00" />
+      <Button fx:id="addCat" blendMode="OVERLAY" layoutX="365.0" layoutY="15.0" mnemonicParsing="false" onAction="#pushAddCat" prefHeight="75.0" prefWidth="75.0" styleClass="level1-button" text="Button" textFill="#ffffff00" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="636.0" layoutY="642.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/heli.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buildMill" layoutX="892.0" layoutY="409.0" mnemonicParsing="false" onAction="#buildMill" text="Mill" />
+      <ImageView fx:id="fabricWeavingImage" fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bakeryImage" fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iceCreamShopImage" fitHeight="150.0" fitWidth="200.0" layoutX="831.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="millImage" fitHeight="150.0" fitWidth="200.0" layoutX="892.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="milkPackingImage" fitHeight="150.0" fitWidth="200.0" layoutX="856.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tailoringImage" fitHeight="150.0" fitWidth="200.0" layoutX="148.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/build.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buildFabricWeaving" layoutX="102.0" layoutY="611.0" mnemonicParsing="false" onAction="#buildFabricWeaving" text="Fabric weaving" />
+      <Button fx:id="buildBakery" layoutX="68.0" layoutY="425.0" mnemonicParsing="false" onAction="#buildBakery" text="Bakery" />
+      <Button fx:id="buildTailoring" layoutX="194.0" layoutY="259.0" mnemonicParsing="false" onAction="#buildTailoring" text="Tailoring" />
+      <Button fx:id="buildIceCreamShop" layoutX="811.0" layoutY="252.0" mnemonicParsing="false" onAction="#buildIceCream" text="Ice Cream" />
+      <Button fx:id="buildMilkPacking" layoutX="843.0" layoutY="580.0" mnemonicParsing="false" onAction="#buildMilkPacking" text="Milk Packing" />
+      <ImageView fitHeight="129.0" fitWidth="360.0" layoutX="740.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/road.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="gold" alignment="CENTER" layoutX="749.0" layoutY="26.0" prefHeight="44.0" prefWidth="125.0" style="-fx-text-fill: #ffd700;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="140.0" fitWidth="275.0" layoutX="838.0" layoutY="663.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/aim.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="task1" fitHeight="40.0" fitWidth="40.0" layoutX="854.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="task2" fitHeight="40.0" fitWidth="40.0" layoutX="917.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="task3" fitHeight="40.0" fitWidth="40.0" layoutX="978.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="task01" alignment="CENTER" layoutX="865.0" layoutY="723.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="task02" alignment="CENTER" layoutX="925.0" layoutY="723.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="task03" alignment="CENTER" layoutX="990.0" layoutY="723.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Button fx:id="menu" layoutX="14.0" layoutY="752.0" mnemonicParsing="false" onAction="#pushMenu" prefHeight="40.0" prefWidth="86.0" text="Menu" />
+      <ImageView fitHeight="83.0" fitWidth="65.0" layoutX="842.0" layoutY="740.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/clock.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="time" alignment="CENTER" layoutX="967.0" layoutY="758.0" textFill="#ddc613">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
