@@ -1,0 +1,14 @@
+.button{
+    -fx-shape: "M 400 350 A 50 50 0 1 1 400 450 A 50 50 0 1 1 400 350" ;
+    -fx-background-color: cornflowerblue;
+}
+.button:hover{
+    -fx-background-color: cyan;
+}
+.button:pressed{
+    -fx-background-color: lightskyblue;
+}
+.label{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}

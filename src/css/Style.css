@@ -1,0 +1,19 @@
+.button{
+    -fx-background-color: #CEE26B;
+}
+.button:hover{
+    -fx-background-color: #A8D26D;
+}
+.button:pressed{
+    -fx-background-color: #82C26E;
+}
+.level1-button{
+    -fx-shape: "M 400 350 A 50 50 0 1 1 400 450 A 50 50 0 1 1 400 350" ;
+    -fx-background-color: linear-gradient(#ffafbd, #ffc3a0);
+}
+.level1-button:hover{
+    -fx-background-color: linear-gradient(#de6262,#ffb88c);
+}
+.level1-button:pressed{
+    -fx-background-color: linear-gradient(#dd5e89,#f7bb97);
+}
